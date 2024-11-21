@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import path from "path";
-
 import "./globals.css";
 import SessionProviderWrapper from "./SessionProviderWrapper";
+import "easymde/dist/easymde.min.css";
 
 const workSans = localFont({
   src: [

@@ -1,9 +1,5 @@
 "use client";
 
-<<<<<<< HEAD
-import { authOptions } from "@/auth";
-=======
->>>>>>> Initial saniti setup
 import { signOut, signIn, useSession } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
